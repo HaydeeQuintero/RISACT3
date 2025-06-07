@@ -1,0 +1,6 @@
+int value = 0;
+loop {
+   wait 20;
+   value = value + 1;
+   send SINK_0 value;
+}
