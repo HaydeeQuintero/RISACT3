@@ -1,0 +1,5 @@
+loop {
+   wait 1;
+   print "Mensaje recibido: ";
+   readmsg;
+}
